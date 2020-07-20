@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444332051517",
+    "firebase_url": "https://myklinikv2.firebaseio.com",
+    "project_id": "myklinikv2",
+    "storage_bucket": "myklinikv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444332051517:android:80296334208ef7af676e54",
+        "android_client_info": {
+          "package_name": "info.myklinik.myklinikv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444332051517-hdkbfh5o2jkn58j4r2kld0lvka2fp26e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.myklinik.myklinikv2",
+            "certificate_hash": "dd72142766cbde287103dbf6712a46a7841da723"
+          }
+        },
+        {
+          "client_id": "444332051517-jdjti1a69pi65qffmsnl7lvhf8ip2qpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqGjVbQW_Pqw_oBq6h11DCpMsw2GIkt88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444332051517-jdjti1a69pi65qffmsnl7lvhf8ip2qpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

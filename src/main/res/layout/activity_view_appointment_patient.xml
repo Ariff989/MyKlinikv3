@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAppointmentPatientActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relLay"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageapoint"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/appoint"
+            android:transitionName="logo_image" />
+
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageapoint"
+            android:fontFamily="@font/helve"
+            android:includeFontPadding="false"
+            android:text="View Appointment"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="391dp"
+        android:layout_height="805dp"
+        android:layout_below="@+id/relLay"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+</RelativeLayout>
